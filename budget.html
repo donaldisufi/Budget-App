@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="budget.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+   
+    <div class="col-md-12" id="head">
+        <div class="row">
+            <div class="col-md-4" id="lefthead"></div>
+            <div class="col-md-4" id="middhead">
+                <div class="row avail">
+                    <h2 id="h2">dddd</h2>
+                </div>
+                <div class="row total">
+                    <h1 id="h1"><span id="sp"></span> <span id="totalVlera">0</span></h1>
+                </div>
+                <button id="income" class="btn btn-success" type="button"><span id="incomesp">income</span> <span id="incometotal">000.00</span></button>
+                <button id="excome" class="btn btn-danger" type="button"><span id="excomesp">Expense</span><span id="expensetotal">000.00</span></button>
+            </div>
+            <div class="col-md-4" id="righthead"></div>
+        </div>
+    </div>
+    <div class="col-md-12" id="underhead">
+        <div class="row" style="hieght:100%; padding-top:10px;height: 10vh;">
+            <div class="col-md-3" style=""></div>
+            <div class="col-md-6" style="height: 100%;">
+                <div class="row">
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option value="">select</option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+
+                    <input type="text" id="inputi" class="form-control" placeholder="Write teh income or excome">
+                    <input type="text" id="int2" class="form-control" placeholder="Value">
+                    <button class="btn btn-light" id="btnok">Ok</button>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+    </div>
+    <div class="row" style="height:500px;">
+        <div class="col-md-1" id="leftdiv">
+
+        </div>
+        <div class="col-md-5" id="incomediv">
+            <div class="row" id="indiv">
+                <h1 id="incometext">INCOME</h1>
+            </div>
+            <!-- Listat e te hyrave -->
+         <!--
+            <div class="row incomenext">
+                <div class="col-md-8 in1">
+
+                    <h2 id="intext">Income text</h2>
+                </div>
+                <div class="col-md-4 in2">
+                    <div class="row">
+                        <div class="col-md-6 dis" style="display : block;"></div>
+                        <div class="col-md-6">
+                            <h2 id="invalue"> 000.00</h2>
+                        </div>
+                        <div class="col-md-6" id="butoni">
+                            <button id="click1" class="btn btn-danger">Delete</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+        <div class="col-md-5" id="excomediv">
+            <div class="row" id="indiv2">
+                <h1 id="excometext">EXPENSE</h1>
+            </div>
+            <!--  Listat e shpenzimeve  -->
+
+          <!---   <div class="row excomenext">
+                <div class="col-md-8 in3">
+
+                    <h2 id="excometext">excome text</h2>
+                </div>
+                <div class="col-md-4 in4">
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                            <h2 id="exvalue"> 000.00</h2>
+                        </div>
+                        <div class="col-md-6" id="butoni2">
+                            <button id="click2" class="btn btn-danger">Delete</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div> -->
+        
+        </div>
+        <div class="col-md-1" id="rightdiv">
+
+        </div>
+    </div>
+
+    <script src="budget.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+body {
+    height: 100%;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+}
+
+#head {
+    padding-top: 10px;
+    background-image: url('back.png');
+    background-size: cover;
+    height: 40vh;
+
+}
+
+#underhead {
+    height: 10vh;
+    background-color: rgb(218, 223, 213);
+}
+
+#left {
+
+    height: 500px;
+
+}
+
+#right {
+
+    height: 5000px;
+}
+
+#lefthead {
+    height: 40vh;
+
+
+}
+
+#middhead {
+    height: 40vh;
+
+
+}
+
+#righthead {
+    height: 40vh;
+
+}
+
+#inputGroupSelect01 {
+    float: left;
+    width: 50px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+
+#inputi {
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+}
+
+#int2 {
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+}
+
+#h2 {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+#h1 {
+    font-weight: normal;
+    color: white;
+    margin-left: 120px;
+}
+
+#btnok {
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#incomesp {
+    margin-right: 100px;
+}
+
+#excome {
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 0px;
+    margin-left: 45px;
+}
+
+#excomesp {
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+#income {
+    background-color: rgb(15, 144, 199);
+    margin-top: 20px;
+    float: left;
+    width: 350px;
+    height: 50px;
+    border-radius: 0px;
+    margin-left: 45px;
+    border: 1px solid rgb(15, 144, 199);
+}
+
+#leftdiv {
+    height: 500px;
+
+
+}
+
+#incomediv {
+    height: 500px;
+
+
+}
+
+#excomediv {
+    height: 500px;
+    padding-left: 30px;
+
+}
+
+#rightdiv {
+    height: 500px;
+
+}
+
+#incometext {
+    font-size: 25px;
+    color: rgb(15, 144, 199);
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+#excometext {
+    font-size: 25px;
+    color: rgb(254, 5, 5);
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom : 30px;
+}
+
+#indiv,
+#indiv2 {
+
+    height: 60px;
+
+}
+
+.incomenext {
+    height: 60px;
+    background-color: rgb(206, 206, 206);
+    border: 2px solid rgb(230, 231, 232);
+    margin-top: 10px;
+}
+
+.excomenext {
+    height: 60px;
+    background-color: rgb(206, 206, 206);
+    border: 2px solid rgb(230, 231, 232);
+    margin-top: 10px;
+
+}
+
+#intext,
+#extext {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 15px;
+  float: left;
+}
+
+#invalue,
+#exvalue {
+    font-size: 20px;
+    font-weight: normal;
+     margin-top: 15px;
+    color: rgb(15, 144, 199);
+
+}
+
+#exvalue {
+    color: rgb(254, 5, 5);
+
+}
+.in1 {
+    height: 60px;
+   
+    
+}
+.in2 {
+    height: 60px;
+    
+ 
+  
+}
+.in3 {
+    height: 60px;
+     
+}
+.in4 {
+    height: 60px;
+}
+.avail {
+    
+    padding-left : 30px;
+}
+.total {
+    
+    padding-left: 100px;
+}
+
+#butoni,#butoni2 {
+display: block;
+padding-top: 10px;
+}
+.dis {
+    display: none;
+}
+#click1 {
+    background-color: rgb(15, 144, 199);
+}
